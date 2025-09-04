@@ -29,7 +29,7 @@ public class ex003 {
 			idades[i] = sc.nextInt();
 			System.out.print("Altura: ");
 			alturas[i] = sc.nextDouble();
-		}
+			sc.nextLine();		}
 		
 		pessoasMenores = 0;
 		alturaTotal = 0;
@@ -42,9 +42,9 @@ public class ex003 {
 		}
 		
 		mediaAltura = alturaTotal / numPessoas;
-		porcentagemMenores = (pessoasMenores / numPessoas) * 100;
+		porcentagemMenores = ((double)pessoasMenores / numPessoas) * 100;
 		
-		System.out.printf("\n Altura Media: %2.f\n", mediaAltura);
+		System.out.printf("\nAltura Media: %.2f\n", mediaAltura);
 		System.out.printf("Pessoas com menos de 16 anos: %.2f%%\n", porcentagemMenores);
 		
 		for (int i = 0; i < numPessoas; i++) {
