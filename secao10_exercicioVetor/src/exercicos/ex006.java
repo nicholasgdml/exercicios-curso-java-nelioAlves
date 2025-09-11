@@ -37,6 +37,7 @@ public class ex006 {
 			System.out.println(vetorC[i]);
 		}
 		
+		sc.close();
 	}
 
 }
