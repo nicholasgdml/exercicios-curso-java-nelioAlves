@@ -36,5 +36,7 @@ public class ex009 {
 		}
 		
 		System.out.println("PESSOA MAIS VELHA: " + maiorIdadeNome);
+		
+		sc.close();
 	} 
 }

@@ -40,6 +40,8 @@ public class ex010 {
 				System.out.println(nomes[i]);
 			}
 		}
+		
+		sc.close();
 	}
 
 }
